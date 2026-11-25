@@ -1,0 +1,102 @@
+
+--- 2026-11-25 16:39:32.712578 ---
+targets: 6
+  [ok]   C:\Users\student\Downloads
+  [ok]   C:\Users\student\Documents
+  [ok]   C:\Users\student\Desktop
+  [ok]   C:\Users\student\OneDrive
+  [ok]   C:\Users\student\Pictures
+  [ok]   C:\Users\student\Videos
+
+>>> Encrypting C:\Users\student\Downloads
+Encrypting 26 file(s) under C:\Users\student\Downloads using 4 thread worker(s), 1 batch(es) ...
+  [enc] C:\Users\student\Downloads\CyberChef_v10.19.0.zip -> CyberChef_v10.19.0.zip.enc
+  [enc] C:\Users\student\Downloads\desktop.ini -> desktop.ini.enc
+  [enc] C:\Users\student\Downloads\dex2jar-2.0.zip -> dex2jar-2.0.zip.enc
+  [enc] C:\Users\student\Downloads\die_win64_portable_3.09_x64.zip -> die_win64_portable_3.09_x64.zip.enc
+  [enc] C:\Users\student\Downloads\dnSpy-net-win64.zip -> dnSpy-net-win64.zip.enc
+  [enc] C:\Users\student\Downloads\ExplorerSuite.exe -> ExplorerSuite.exe.enc
+  [enc] C:\Users\student\Downloads\ghidra_11.1.2_PUBLIC_20240709.zip -> ghidra_11.1.2_PUBLIC_20240709.zip.enc
+  [enc] C:\Users\student\Downloads\hashcalc_softradar-com.zip -> hashcalc_softradar-com.zip.enc
+  [enc] C:\Users\student\Downloads\idafree76_windows.exe -> idafree76_windows.exe.enc
+  [enc] C:\Users\student\Downloads\jd-gui-windows-1.6.6.zip -> jd-gui-windows-1.6.6.zip.enc
+  [enc] C:\Users\student\Downloads\jre-8u421-windows-i586-iftw.exe -> jre-8u421-windows-i586-iftw.exe.enc
+  [enc] C:\Users\student\Downloads\lab2.zip -> lab2.zip.enc
+  [enc] C:\Users\student\Downloads\NetworkMiner_2-9.zip -> NetworkMiner_2-9.zip.enc
+  [enc] C:\Users\student\Downloads\OneDrive_1_7-27-2024.zip -> OneDrive_1_7-27-2024.zip.enc
+  [enc] C:\Users\student\Downloads\pdfstreamdumper_setup.exe -> pdfstreamdumper_setup.exe.enc
+  [enc] C:\Users\student\Downloads\python-3.12.4-amd64.exe -> python-3.12.4-amd64.exe.enc
+  [enc] C:\Users\student\Downloads\snapshot_2024-07-24_10-38.zip -> snapshot_2024-07-24_10-38.zip.enc
+  [enc] C:\Users\student\Downloads\SysinternalsSuite.zip -> SysinternalsSuite.zip.enc
+  [enc] C:\Users\student\Downloads\winhex.zip -> winhex.zip.enc
+  [enc] C:\Users\student\Downloads\yara-master-2298-win64.zip -> yara-master-2298-win64.zip.enc
+  [error] C:\Users\student\Downloads\malware\encrypt.log: PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\student\\Downloads\\malware\\encrypt.log'
+  [enc] C:\Users\student\Downloads\malware\multi.txt -> multi.txt.enc
+  [enc] C:\Users\student\Downloads\malware\myprogram3.py -> myprogram3.py.enc
+  [enc] C:\Users\student\Downloads\malware\tic_tac_toe.py -> tic_tac_toe.py.enc
+  [enc] C:\Users\student\Downloads\malware\trojan_v8.py -> trojan_v8.py.enc
+  [enc] C:\Users\student\Downloads\malware\__pycache__\spawner_1.cpython-312.pyc -> spawner_1.cpython-312.pyc.enc
+  Summary: 25 encrypted, 0 skipped, 1 failed
+<<< Done: C:\Users\student\Downloads
+
+>>> Encrypting C:\Users\student\Documents
+Encrypting 1 file(s) under C:\Users\student\Documents (single-process) ...
+  [enc] C:\Users\student\Documents\desktop.ini -> desktop.ini.enc
+  Summary: 1 encrypted, 0 skipped, 0 failed
+<<< Done: C:\Users\student\Documents
+
+>>> Encrypting C:\Users\student\Desktop
+Encrypting 17 file(s) under C:\Users\student\Desktop using 4 thread worker(s), 1 batch(es) ...
+  [enc] C:\Users\student\Desktop\CFF Explorer.lnk -> CFF Explorer.lnk.enc
+  [enc] C:\Users\student\Desktop\CyberChef_v10.19.0.html.lnk -> CyberChef_v10.19.0.html.lnk.enc
+  [enc] C:\Users\student\Desktop\desktop.ini -> desktop.ini.enc
+  [enc] C:\Users\student\Desktop\die.exe.lnk -> die.exe.lnk.enc
+  [enc] C:\Users\student\Desktop\dnSpy.exe.lnk -> dnSpy.exe.lnk.enc
+  [enc] C:\Users\student\Desktop\ghidraRun.bat.lnk -> ghidraRun.bat.lnk.enc
+  [enc] C:\Users\student\Desktop\HashCalc.lnk -> HashCalc.lnk.enc
+  [enc] C:\Users\student\Desktop\jd-gui.exe.lnk -> jd-gui.exe.lnk.enc
+  [enc] C:\Users\student\Desktop\MalwareSample - Shortcut.lnk -> MalwareSample - Shortcut.lnk.enc
+  [enc] C:\Users\student\Desktop\NetworkMiner.exe.lnk -> NetworkMiner.exe.lnk.enc
+  [enc] C:\Users\student\Desktop\PdfStreamDumper.exe.lnk -> PdfStreamDumper.exe.lnk.enc
+  [enc] C:\Users\student\Desktop\procexp.exe.lnk -> procexp.exe.lnk.enc
+  [enc] C:\Users\student\Desktop\Procmon.exe.lnk -> Procmon.exe.lnk.enc
+  [enc] C:\Users\student\Desktop\Tools - Shortcut.lnk -> Tools - Shortcut.lnk.enc
+  [enc] C:\Users\student\Desktop\winhex.exe.lnk -> winhex.exe.lnk.enc
+  [enc] C:\Users\student\Desktop\x96dbg.exe - Shortcut.lnk -> x96dbg.exe - Shortcut.lnk.enc
+  [enc] C:\Users\student\Desktop\yara64.exe.lnk -> yara64.exe.lnk.enc
+  Summary: 17 encrypted, 0 skipped, 0 failed
+<<< Done: C:\Users\student\Desktop
+
+>>> Encrypting C:\Users\student\OneDrive
+Encrypting 1 file(s) under C:\Users\student\OneDrive (single-process) ...
+  [enc] C:\Users\student\OneDrive\desktop.ini -> desktop.ini.enc
+  Summary: 1 encrypted, 0 skipped, 0 failed
+<<< Done: C:\Users\student\OneDrive
+
+>>> Encrypting C:\Users\student\Pictures
+Encrypting 14 file(s) under C:\Users\student\Pictures using 4 thread worker(s), 1 batch(es) ...
+  [enc] C:\Users\student\Pictures\desktop.ini -> desktop.ini.enc
+  [enc] C:\Users\student\Pictures\download-windows-10-wallpaper-13-1920x1080.jpg -> download-windows-10-wallpaper-13-1920x1080.jpg.enc
+  [enc] C:\Users\student\Pictures\download-windows-10-wallpaper-15-scaled.jpg -> download-windows-10-wallpaper-15-scaled.jpg.enc
+  [enc] C:\Users\student\Pictures\OIP.jfif -> OIP.jfif.enc
+  [enc] C:\Users\student\Pictures\Windows-10-Wallpaper-HD-4.webp -> Windows-10-Wallpaper-HD-4.webp.enc
+  [enc] C:\Users\student\Pictures\Windows-10-Wallpaper-HD-Nature-2.webp -> Windows-10-Wallpaper-HD-Nature-2.webp.enc
+  [enc] C:\Users\student\Pictures\Windows-10-Wallpaper-Kostenlos.jpg -> Windows-10-Wallpaper-Kostenlos.jpg.enc
+  [enc] C:\Users\student\Pictures\Windows-10-Wallpaper-Kostenlos.webp -> Windows-10-Wallpaper-Kostenlos.webp.enc
+  [enc] C:\Users\student\Pictures\Windows-10-Wallpaper-Landscape.webp -> Windows-10-Wallpaper-Landscape.webp.enc
+  [enc] C:\Users\student\Pictures\Windows-10-Wallpaper-Location-6.webp -> Windows-10-Wallpaper-Location-6.webp.enc
+  [enc] C:\Users\student\Pictures\Windows-10-Wallpaper-Location-7.webp -> Windows-10-Wallpaper-Location-7.webp.enc
+  [enc] C:\Users\student\Pictures\Windows-10-Wallpaper-Strand-1.webp -> Windows-10-Wallpaper-Strand-1.webp.enc
+  [enc] C:\Users\student\Pictures\Windows-10-Wallpaper-Strand.jpg -> Windows-10-Wallpaper-Strand.jpg.enc
+  [enc] C:\Users\student\Pictures\Windows-10-Wallpaper-Theme.webp -> Windows-10-Wallpaper-Theme.webp.enc
+  Summary: 14 encrypted, 0 skipped, 0 failed
+<<< Done: C:\Users\student\Pictures
+
+>>> Encrypting C:\Users\student\Videos
+Encrypting 2 file(s) under C:\Users\student\Videos using 2 thread worker(s), 1 batch(es) ...
+  [enc] C:\Users\student\Videos\desktop.ini -> desktop.ini.enc
+  [enc] C:\Users\student\Videos\Captures\desktop.ini -> desktop.ini.enc
+  Summary: 2 encrypted, 0 skipped, 0 failed
+<<< Done: C:\Users\student\Videos
+
+=== Summary: 6 folder(s) processed ===
